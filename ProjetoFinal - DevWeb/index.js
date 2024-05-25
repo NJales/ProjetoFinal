@@ -51,7 +51,7 @@ function fazerSom(key) {
             console.log('Tecla não mapeada:', key);
             return;
     }
-    const audio = new Audio(`Acetss/sounds/${soundFile}`);
+    const audio = new Audio(`Assets/sounds/${soundFile}`);
     audio.play();
 }
 
